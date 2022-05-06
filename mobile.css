@@ -1,0 +1,42 @@
+.container{
+    height: 52vh;
+    margin: 193px auto;
+    padding: 28px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 14px;
+}
+.pfp img{
+height: 120px;
+margin-bottom: 15px;
+}
+.section{
+    height: 60px;
+}
+.image img{
+    margin: 9px;
+}
+#icon1 img{
+    width: 19px;
+    height: 16px;
+
+}
+#icon2 img{
+    width: 19px;
+}
+#icon3 img{
+    margin: 8px;
+    width: 21px;
+}
+#icon4 img{
+    width: 20px;
+    margin: 8px;
+}
+#icon6 img{
+    width: 50px;
+    top: 7px;
+    margin: -7px;
+}

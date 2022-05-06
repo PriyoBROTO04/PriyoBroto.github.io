@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.container::before{
+    content: '';
+    background: url('/bg.jpg') no-repeat center center;
+    background-size:cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    filter: brightness(60%);
+    z-index: -1;
+
+}
+.pfp img{
+
+    height: 176px;
+    border-radius: 150px;
+    margin-bottom: 33px;
+
+}
+.image{
+ 
+    border:2px solid red;
+    border-radius: 100px;
+    margin: 10px;
+}
+.image img{
+    width: 27px;
+    margin: 17px;
+}
+.transition{
+    transition: all;
+    will-change: all;
+    transition-duration: 0.5s;
+    
+}
+#icon1 img{
+    width: 28px;
+    height: 24px;
+}
+#icon1{
+    border-color:#4250817e ;
+}
+#icon1:hover{
+    border-color: #7188d8
+    
+}
+#icon2 img{
+width: 27px;
+
+}
+#icon2{
+    border-color: #4077916c
+}
+#icon2:hover{
+    border-color: #74d3ff
+}
+#icon3 img{
+    width: 30px;
+    margin: 16px;
+    /* height: 25px; */
+    position: relative;
+    top: 3px;
+}
+#icon3{
+    border-color: #7c377871
+}
+#icon3:hover{
+    border-color: #ff74f8
+}
+#icon4 img{
+    width: 30px;
+    margin: 15px;
+}
+#icon4{
+    border-color: #336e335e
+}
+#icon4:hover{
+    border-color: #74ff74
+}
+#icon5 img{
+    width: 40px;
+    margin: 10px;
+}
+#icon5{
+    border-color: #79753681
+}
+#icon5:hover{
+    border-color: #fff674
+}
+#icon6 img{
+    width: 78px;
+    /* height: 70px; */
+    margin: -9px;
+    position: relative;
+    top: 10px;
+}
+#icon6{
+    border-color: #7a2c7681
+}
+#icon6:hover{
+    border-color: #ff58f7
+}
+.container{
+    width: 33%;
+    height: 71vh;
+    display: flex;
+    margin: 150px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(98 97 97 / 45%);
+    padding: 76px;
+border-radius: 20px;
+
+}
+.section{
+    display: flex;
+    margin:20px;
+    height: 85px;
+}
+h1{
+    display: inline-block; 
+    font-family: 'Play', sans-serif;
+    font-size: 3.54rem;
+    background-image: linear-gradient(45deg, cyan, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 15px 0px;
+}
+h2{
+    display: inline-block; 
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+    background-image: linear-gradient(45deg, rgb(213 122 122), white);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom:15px;
+}
