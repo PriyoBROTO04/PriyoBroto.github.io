@@ -6,7 +6,7 @@ body{
 }
 .container::before{
     content: '';
-    background: url('./bg.jpg') no-repeat center center;
+    background: url('/bg.jpg') no-repeat center center;
     background-size:cover;
     position: absolute;
     width: 100%;
@@ -18,9 +18,11 @@ body{
 }
 .pfp img{
 
-    height: 176px;
+    width: 38%;
     border-radius: 150px;
     margin-bottom: 33px;
+    display: block;
+    margin: auto;
 
 }
 .image{
@@ -127,7 +129,7 @@ border-radius: 20px;
 h1{
     display: inline-block; 
     font-family: 'Play', sans-serif;
-    font-size: 3.54rem;
+    font-size: 3rem;
     background-image: linear-gradient(45deg, cyan, white);
     -webkit-background-clip: text;
     color: transparent;
@@ -136,7 +138,7 @@ h1{
 h2{
     display: inline-block; 
     font-family: 'Play', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     background-image: linear-gradient(45deg, rgb(213 122 122), white);
     -webkit-background-clip: text;
     color: transparent;
