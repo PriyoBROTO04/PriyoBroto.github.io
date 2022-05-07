@@ -21,16 +21,20 @@ margin-bottom: 15px;
     margin: 9px;
 }
 #icon1 img{
-    width: 19px;
-    height: 16px;
+    width: 24px;
+    height: 26px;
+    margin: 7px;
 
 }
 #icon2 img{
-    width: 19px;
+    width: 24px;
+    margin: 7px;
+    top: -1px;
 }
 #icon3 img{
-    margin: 8px;
-    width: 21px;
+    margin: 6px;
+    width: 26px;
+    top: -1px;
 }
 #icon4 img{
     width: 20px;
