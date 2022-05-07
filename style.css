@@ -42,8 +42,11 @@ body{
     
 }
 #icon1 img{
-    width: 28px;
-    height: 24px;
+    width: 32px;
+    position: relative;
+    top: -2px;
+    height: 35px;
+    margin: 15px;
 }
 #icon1{
     border-color:#4250817e ;
@@ -53,7 +56,10 @@ body{
     
 }
 #icon2 img{
-width: 27px;
+    width: 34px;
+    top: -1px;
+    position: relative;
+    margin: 15px;
 
 }
 #icon2{
@@ -63,11 +69,11 @@ width: 27px;
     border-color: #74d3ff
 }
 #icon3 img{
-    width: 30px;
-    margin: 16px;
+    width: 36px;
+    margin: 13px;
     /* height: 25px; */
     position: relative;
-    top: 3px;
+    top: 0px;
 }
 #icon3{
     border-color: #7c377871
