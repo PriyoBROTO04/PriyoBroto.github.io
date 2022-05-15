@@ -11,40 +11,37 @@ h2{
     font-size: 12px;
 }
 .pfp img{
-width: 40%;
+width: 50%;
 margin-bottom: 15px;
 }
-.section{
-    height: 52px;
-}
+
 .image{
-    margin: 6px;
+    margin: 4px;
+    height: 50px;
 }
-.image img{
-    margin: 9px;
-}
-#icon1 img{
-    width: 24px;
-    height: 26px;
-    margin: 7px;
+#icon1 i{
+    font-size: 1.5rem;
+    top: 3px;
+    padding: 10px;
 
 }
-#icon2 img{
-    width: 24px;
-    margin: 7px;
-    top: -1px;
+#icon2 i{
+    font-size: 1.7rem;
+    top: -2px;
+    padding: 13px;
 }
-#icon3 img{
-    margin: 6px;
-    width: 26px;
-    top: -1px;
+#icon3 i{
+    font-size: 1.4rem;
+    padding: 14px;
+    top: 1px;
 }
-#icon4 img{
-    width: 20px;
-    margin: 8px;
+#icon4 i{
+    font-size: 1.6rem;
+    top: 1px;
+    padding: 12px;
 }
-#icon6 img{
-    width: 50px;
-    top: 7px;
-    margin: -7px;
+#icon6 i{
+    font-size: 1.5rem;
+    padding: 12px;
+    top: 1px;
 }
