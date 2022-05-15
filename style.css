@@ -94,27 +94,11 @@ body{
 .fa-brands,.fa-solid{
     color: rgb(0 173 255);
 }
-.fa-brands:hover{
-    color: white;
-    
-}
-.fa-solid:hover{
-    color: white;
-    
-}
-.fa-moon:hover{
-    color: rgb(0, 96, 141);
-}
-
 #icon1 i{
     font-size: 1.9rem;
     padding: 13px;
     position: relative;
     top: 4px;
-}
-#icon1:hover{
-    background-color: #5865f2;
-
 }
 #icon2 i{
     font-size: 2.2rem;
@@ -123,23 +107,14 @@ body{
     top: -2px;
 
 }
-
-#icon2:hover{
-    background-color:  #c32aa3;
-}
 #icon3 i{
 
     font-size: 1.95rem;
     padding: 16px;
     position: relative;
 
-
+    
 }
-
-#icon3:hover{
-    background-color:  #fbbc05;
-}
-
 #icon4 i{
     font-size: 2.2rem;
     padding: 15px;
@@ -148,10 +123,6 @@ body{
     
 
 }
-#icon4:hover{
-    background-color: #1ed760
-}
-
 #icon6 i{
     font-size: 1.9rem;
     padding: 15px;
@@ -159,8 +130,40 @@ body{
     top: 2px;
     right: -0.5px;
 }
-#icon6:hover{
-    background-color: #ff0000
+@media(hover: hover){
+    .fa-brands:hover{
+        color: white;
+        
+    }
+    .fa-solid:hover{
+        color: white;
+        
+    }
+    .fa-moon:hover{
+        color: rgb(0, 96, 141);
+    }
+    
+    #icon1:hover{
+        background-color: #5865f2;
+    
+    }
+    
+    #icon2:hover{
+        background-color:  #c32aa3;
+    }
+    
+    #icon3:hover{
+        background-color:  #fbbc05;
+    }
+    
+    #icon4:hover{
+        background-color: #1ed760
+    }
+    
+    #icon6:hover{
+        background-color: #ff0000
+    }
+
 }
 .container{
     width: 30%;
