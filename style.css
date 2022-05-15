@@ -76,6 +76,9 @@ body{
     margin: 10px;
     box-shadow: 0px 3px 4px 1px var(--shadowcolor);
 }
+.image:hover{
+    transform: translateY(-5px);
+}
 
 .image img{
     width: 27px;
@@ -91,7 +94,7 @@ body{
 .fa-brands,.fa-solid{
     color: rgb(0 173 255);
 }
-.image .fa-brands:hover{
+.fa-brands:hover{
     color: white;
     
 }
